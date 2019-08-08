@@ -1,14 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <a class="about" href="#">sobre</a>
-      </header>
-    </div>
+    <a className="action" href="#">Sobre</a>
   );
 }
 
