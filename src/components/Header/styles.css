@@ -1,7 +1,15 @@
 .header {
-    padding: 19px 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 34px;
 }
 
-.sobre-menu {
-    float: right;
+.header > .sobre {
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.header > .menu {
+    width: 25px;
 }
