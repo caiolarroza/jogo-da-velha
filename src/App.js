@@ -1,16 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
-import Tabuleiro from './objects/Tabuleiro';
-import Xis from './objects/Xis';
-import Circulo from './objects/Circulo';
+import Card from './objects/Card';
+import Player from './objects/Player';
+import Jogo from './components/Jogo';
 
 function App() {
   return (
     <>
       <Header />
-      <Tabuleiro />
-      <Xis />
-      <Circulo />
+      <Jogo />
     </>
   );
 }
